@@ -6,7 +6,7 @@ Right-click the dropdown → **Inspect** and look at the HTML.
 
 | You see | Dropdown type | Use |
 |---|---|---|
-| `<select>` with `<option>` tags | Native dropdown | [Script 2](dropdown_native) |
+| `<select>` with `<option>` tags | Native dropdown | [Script 2]([dropdown_native](https://github.com/abinahm/dropdown-copy-paste/blob/main/dropdown_native.js)) |
 | `<div class="menu">` with `<div class="item">` entries (Semantic UI and similar) | Custom dropdown | [Script 1](dropdown_universal) |
 | `<input class="search">` inside a dropdown | Custom dropdown (search box) | [Script 1](dropdown_universal) |
 
