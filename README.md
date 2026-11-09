@@ -6,11 +6,11 @@ Right-click the dropdown → **Inspect** and look at the HTML.
 
 | You see | Dropdown type | Use |
 |---|---|---|
-| `<select>` with `<option>` tags | Native dropdown | [Script 2]([dropdown_native](https://github.com/abinahm/dropdown-copy-paste/blob/main/dropdown_native.js)) |
-| `<div class="menu">` with `<div class="item">` entries (Semantic UI and similar) | Custom dropdown | [Script 1](dropdown_universal) |
-| `<input class="search">` inside a dropdown | Custom dropdown (search box) | [Script 1](dropdown_universal) |
+| `<select>` with `<option>` tags | Native dropdown | [Script 2](https://github.com/abinahm/dropdown-copy-paste/blob/main/dropdown_native.js) |
+| `<div class="menu">` with `<div class="item">` entries (Semantic UI and similar) | Custom dropdown | [Script 1](https://github.com/abinahm/dropdown-copy-paste/blob/main/dropdown_universal.js) |
+| `<input class="search">` inside a dropdown | Custom dropdown (search box) | [Script 1](https://github.com/abinahm/dropdown-copy-paste/blob/main/dropdown_universal.js) |
 
-## Script 1: Custom dropdown (dropdown_universal)
+## Script 1: Custom dropdown
 
 Works on Semantic UI style dropdowns where the options are `.item` elements inside a `.menu`.
 
@@ -25,7 +25,7 @@ Works on Semantic UI style dropdowns where the options are `.item` elements insi
 
 `$0` is a DevTools shortcut for the element currently selected in the Elements panel, so no ID or class name is needed.
 
-## Script 2: Native `<select>` dropdown (dropdown_native)
+## Script 2: Native `<select>` dropdown
 
 Works on standard HTML `<select>` elements.
 
